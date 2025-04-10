@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- AOS (Animate On Scroll) -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#internships">Internships</a></li>
+            <li class="nav-item"><a class="nav-link" href="#activities">Extra Curricular</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  <!-- Sections -->
+    <section id="home" class="home-section d-flex align-items-center mt-5">
+      <div class="container mt-5">
+        <div class="row align-items-center">
+          
+          <!-- Text Content -->
+          <div class="col-md-6 text-white text-center text-md-start">
+            <h5 class="welcome-text">👋 Welcome to my world</h5>
+            <h1 class="display-4 fw-bold">Hi, I'm <span class="highlight">Sakshi Choudhary</span></h1>
+            <h4 class="mb-4">Full Stack Developer & Data Science Enthusiast</h4>
+            <p class="lead mb-4">I build full-stack web apps, analyze data, and turn ideas into reality. Let's create something impactful together!</p>
+            <a href="./assests/Sakshi_Choudhary_SJCEM.pdf" class="btn custom-btn me-3" download>📄 Resume</a>
+            <a href="#contact" class="btn custom-btn-outline">📬 Contact Me</a>
+          </div>
+    
+          <!-- Image -->
+          <div class="col-md-6 text-center mt-4 mt-md-0">
+            <img src="./assests/image-removebg-preview (2).png" alt="Coder Girl" class="img-fluid home-img">
+          </div>
+    
+        </div>
+      </div>
+    </section>
+  
+
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5 text-[#ff5722] fw-bold fs-1">Skills</h2>
+    
+        <div class="row g-4 justify-content-center">
+    
+          <!-- Frontend -->
+          <div class="col-md-4">
+            <div class="card skill-card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-window-dock fs-2 text-[#ff5722] mb-3"></i>
+                <h5 class="card-title text-[#ff5722]">Frontend</h5>
+                <p class="card-text text-white">HTML, CSS, Bootstrap, JavaScript, Tkinter, React.js</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Backend -->
+          <div class="col-md-4">
+            <div class="card skill-card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-terminal fs-2 text-[#ff5722] mb-3"></i>
+                <h5 class="card-title text-[#ff5722]">Backend</h5>
+                <p class="card-text text-white">C, Python, Java, Node.js</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Database -->
+          <div class="col-md-4">
+            <div class="card skill-card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-database-check fs-2 text-[#ff5722] mb-3"></i>
+                <h5 class="card-title text-[#ff5722]">Database</h5>
+                <p class="card-text text-white">MySQL, PostgreSQL, MongoDB</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Tools & Tech -->
+          <div class="col-md-4">
+            <div class="card skill-card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-gear-wide-connected fs-2 text-[#ff5722] mb-3"></i>
+                <h5 class="card-title text-[#ff5722]">Tools & Tech</h5>
+                <p class="card-text text-white">Git, Figma, Canva, VS Code, MS Office, Tableau</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Employability -->
+          <div class="col-md-4">
+            <div class="card skill-card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-people-fill fs-2 text-[#ff5722] mb-3"></i>
+                <h5 class="card-title text-[#ff5722]">Employability</h5>
+                <p class="card-text text-white">Communication, Teamwork, Creative Writing</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5 text-[#ff5722] fw-bold fs-1">Projects</h2>
+    
+        <div class="d-flex justify-content-center mb-4 flex-wrap gap-2">
+          <button class="btn btn-outline-light filter-btn active" data-filter="all">All</button>
+          <button class="btn btn-outline-light filter-btn" data-filter="htmlcss">HTML/CSS</button>
+          <button class="btn btn-outline-light filter-btn" data-filter="react">React</button>
+          <button class="btn btn-outline-light filter-btn" data-filter="mern">MERN</button>
+          <button class="btn btn-outline-light filter-btn" data-filter="java">Java</button>
+        </div>
+    
+        <div id="projectCards" class="row g-4 mt-3"></div>
+      </div>
+    </section>
+    
+    
+
+    <section id="education" class="education-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5 text-[#ff5722] fw-bold fs-1">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>St John College of Engineering and Management, Mumbai University</h5>
+              <p class="degree">Bachelor of Computer Engineering, Major in Data Science</p>
+              <p class="details">CGPA: <strong>9.57</strong></p>
+              <p class="duration">June 2021 – June 2025</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>Motilal Kanji Junior College, Chinchani, Maharashtra</h5>
+              <p class="degree">Higher Secondary School Certificate</p>
+              <p class="details">Percentage: <strong>95.5%</strong></p>
+              <p class="duration">June 2020 – May 2021</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>Shri Saraswati English Madhyamik Vidyalaya, Thane, Maharashtra</h5>
+              <p class="degree">Secondary School Certificate</p>
+              <p class="details">Percentage: <strong>87%</strong></p>
+              <p class="duration">June 2018 – May 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="internships" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5 text-[#ff5722] fw-bold fs-1">Internships</h2>
+        <div id="internship-cards" class="row g-4"></div>
+      </div>
+    </section>
+
+    <section id="activities" class="py-5">
+      <div class="container">
+        <h2 class="section-title text-center mb-5 text-[#ff5722] fw-bold fs-1">🎯 Extra Curricular Activities</h2>
+        <div class="row gy-4">
+          
+          <!-- RESPONSIBILITIES -->
+          <div class="col-lg-6">
+            <div class="activity-section">
+              <h4 class="text-accent mb-3">🛠 Responsibilities</h4>
+              <ul class="activity-list">
+                <li>
+                  <span class="activity-role">Volunteer</span> – Women Development Cell
+                  <span class="activity-date">August, 2024</span>
+                </li>
+                <li>
+                  <span class="activity-role">Advisor</span> – Sophisticated and Perpetual Coders Association
+                  <span class="activity-date">June, 2024</span>
+                </li>
+                <li>
+                  <span class="activity-role">Secretary</span> – Indian Society for Technical Education
+                  <span class="activity-date">June 2023 – May, 2024</span>
+                </li>
+                <li>
+                  <span class="activity-role">Content Member</span> – Google Developer Students Club
+                  <span class="activity-date">June 2023 – May, 2024</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+    
+          <!-- ACHIEVEMENTS -->
+          <div class="col-lg-6">
+            <div class="activity-section">
+              <h4 class="text-accent mb-3">🏆 Achievements</h4>
+              <ul class="activity-list">
+                <li>HackerRank Badges – <span class="highlight">5⭐ in SQL & C</span></li>
+                <li>🥇 1st Prize – Clue Chronicles Quiz, Sept 2024</li>
+                <li>🎓 Qualified GATE Computer Science – March 2024 & 2025</li>
+                <li>🥉 3rd Prize – Paper-a-thon (Technical Research), March 2023</li>
+              </ul>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="contact" class="py-5 text-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5 text-[#ff5722] fw-bold fs-1">📬 Contact Me</h2>
+    
+        <!-- Contact Info -->
+        <div class="text-center mb-5 d-flex justify-content-center gap-4">
+          <a href="mailto:sakshi.choudhary.260104@gmail.com" class="text-orange fs-4" data-bs-toggle="tooltip" title="Email">
+            <i class="bi bi-envelope-fill"></i>
+          </a>
+          <a href="https://github.com/Sakshi2601" target="_blank" class="text-orange fs-4" data-bs-toggle="tooltip" title="GitHub">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/sakshi-choudhary-b23ba6244" target="_blank" class="text-orange fs-4" data-bs-toggle="tooltip" title="LinkedIn">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>        
+    
+        <!-- Contact Form -->
+        <form action="https://openformstack.com/f/cm9bsjkkh0004yx0sy7ngih8g" method="POST" class="p-4 rounded-4 shadow-lg text-white" style="max-width: 700px; margin: 0 auto;">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" name="name" class="form-control bg-dark text-white border-secondary" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" name="email" class="form-control bg-dark text-white border-secondary" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea name="message" rows="5" class="form-control bg-dark text-white border-secondary" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-lg btn-demo px-5 py-2 rounded-pill shadow">Send Message 🚀</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer class="text-center py-4 mt-5 bg-dark text-white shadow-sm">
+    <small>&copy; 2025 Sakshi Choudhary. All rights reserved.</small>
+  </footer>  
+
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+    const tooltipList = [...tooltipTriggerList].map(el => new bootstrap.Tooltip(el));
+  </script>
+
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@ const projectsData = [
     description: "Voice-based digital learning platform with an AI chatbot assistant.",
     demoLink: "https://hack-vcet.vercel.app",
     githubLink: "https://github.com/Sakshi2601/hack-vcet",
-    image: "https://github.com/Sakshi2601/my-portfolio/blob/master/src/assets/Projects/digividya.jpg",
+    image: "./assests/digi-vidya.png",
     tags: ["java", "htmlcss"],
   },
   {
@@ -16,7 +16,7 @@ const projectsData = [
     description: "MERN stack platform offering house services with back-end focus.",
     demoLink: "https://housyy.vercel.app",
     githubLink: "https://github.com/Haamidraza03/House-Services",
-    image: "https://via.placeholder.com/400x250?text=Housyy",
+    image: "./assests/Housyy.png",
     tags: ["mern", "react"],
   },
   {
@@ -26,7 +26,7 @@ const projectsData = [
     description: "Suggests YouTube videos and recipes using React and Meal Database API.",
     demoLink: "https://meal-alpha.vercel.app",
     githubLink: "https://github.com/Sakshi2601/meal",
-    image: "https://via.placeholder.com/400x250?text=Meal+App",
+    image: "./assests/meal.png",
     tags: ["react"],
   },
   {
@@ -36,7 +36,7 @@ const projectsData = [
     description: "Seamless e-commerce experience using Owl Carousel, HTML, CSS, and JavaScript.",
     demoLink: "https://fashion-blaze-project.vercel.app",
     githubLink: "https://github.com/Sakshi2601/proj-cloth",
-    image: "https://via.placeholder.com/400x250?text=Fashion+Blaze",
+    image: "./assests/fashion-blaze.png",
     tags: ["htmlcss"],
   },
   {
@@ -46,7 +46,7 @@ const projectsData = [
     description: "Website focusing on design and functionality using Bootstrap and Getform.io.",
     demoLink: "https://digital-marketing-sable.vercel.app",
     githubLink: "https://github.com/Sakshi2601/Digital-Marketing",
-    image: "https://via.placeholder.com/400x250?text=Digital+Marketing",
+    image: "./assests/digital-marketing.png",
     tags: ["htmlcss"],
   },
   {
@@ -56,7 +56,7 @@ const projectsData = [
     description: "VR-based platform for learning laws, developed using MERN Stack and React360.",
     demoLink: null,
     githubLink: "https://github.com/Sakshi2601/main_project",
-    image: "https://via.placeholder.com/400x250?text=Law+Platform",
+    image: "./assests/gamified.png",
     tags: ["mern", "react"],
   },
   {
@@ -66,7 +66,7 @@ const projectsData = [
     description: "A showcase for excellent photography collections built with HTML and CSS.",
     demoLink: "https://photography-ashy.vercel.app",
     githubLink: "https://github.com/Sakshi2601/photography",
-    image: "",
+    image: "./assests/photography.png",
     tags: ["htmlcss"]
   },
   {
@@ -76,7 +76,7 @@ const projectsData = [
     description: "Provides weather updates for different locations using Weather API.",
     demoLink: "https://weather-app-omega-smoky-24.vercel.app",
     githubLink: "https://github.com/Sakshi2601/weather-app",
-    image: "",
+    image: "./assests/weather.png",
     tags: ["htmlcss"]
   },
   {
@@ -86,7 +86,7 @@ const projectsData = [
     description: "Full Stack Java Web Application to provide efficient trade.",
     demoLink: "https://import-export-system.vercel.app",
     githubLink: "https://github.com/Sakshi2601/import-export",
-    image: "",
+    image: "./assests/import-export.png",
     tags: ["htmlcss", "java"]
   },
   {
@@ -96,7 +96,7 @@ const projectsData = [
     description: "A math notes application to find solution using diagrams",
     demoLink: "",
     githubLink: "https://github.com/Sakshi2601/Sketch-Calc",
-    image: "",
+    image: "./assests/sketch-calc.png",
     tags: ["react"]
   },
   {
@@ -104,9 +104,9 @@ const projectsData = [
     name: "My React Portfolio",
     duration: "Dec 2024 - Jan 2025",
     description: "My Portfolio made using React and Vite config with Getform.io.",
-    demoLink: "",
+    demoLink: "https://sakshi-choudhary-portfolio.vercel.app",
     githubLink: "https://github.com/Sakshi2601/my-portfolio",
-    image: "",
+    image: "./assests/portfolio.png",
     tags: ["react"]
   },
   {
@@ -116,7 +116,7 @@ const projectsData = [
     description: "Javascript program for rock paper and scissor game.",
     demoLink: "https://rock-paper-scissor-rouge-three.vercel.app",
     githubLink: "https://github.com/Sakshi2601/rock-paper-scissor",
-    image: "",
+    image: "./assests/rock-paper-scissor.png",
     tags: ["htmlcss"]
   },
 ];
